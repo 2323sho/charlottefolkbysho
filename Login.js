@@ -42,7 +42,7 @@ document.getElementById("log").addEventListener("submit", function(event) {
     var password = document.getElementById("login-password").value;
 
     if  (sessionStorage.getItem("email") == email && sessionStorage.getItem("password") == password) {
-        window.location = "indexxxx.html";
+        window.location = "index.html";
         alert("Login Successful!");
     } else {
         alert("Invalid email or password!");
